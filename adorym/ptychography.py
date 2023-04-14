@@ -36,6 +36,7 @@ except:
 PI = 3.1415927
 
 def reconstruct_ptychography(
+        breakpoint()
         # ______________________________________
         # |Raw data and experimental parameters|________________________________
         fname, obj_size, probe_pos=None, theta_st=0, theta_end=PI, n_theta=None, theta_downsample=None,

@@ -13,7 +13,6 @@ for i in [':', '-', ' ']:
     else:
         timestr = timestr.replace(i, '')
 
-breakpoint()
 parser = argparse.ArgumentParser()
 parser.add_argument('--epoch', default='None')
 parser.add_argument('--save_path', default='cone_256_foam_ptycho')
