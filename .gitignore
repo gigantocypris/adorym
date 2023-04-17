@@ -1,2 +1,5 @@
 *.egg*
 *.cpython*
+.DS_Store
+*.npy
+*.h5

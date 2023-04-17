@@ -169,7 +169,7 @@ def reconstruct_ptychography(
            angle in each synchronized batch. Doing this will cause all ranks to process the same data.
            To perform large fullfield reconstruction efficiently, divide the data into sub-chunks.
     """
-    breakpoint()
+
     t_zero = time.time()
 
     comm = MPI.COMM_WORLD
